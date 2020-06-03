@@ -1,4 +1,4 @@
-
+## This function creates and store a matrix, also passing the values to the next
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
     set <- function(y) {
@@ -12,6 +12,8 @@ makeCacheMatrix <- function(x = matrix()) {
        setinverse = setinverse,
        getinverse = getinverse)
 }
+
+## This Function takes the value from the above function where matrix is created thereby calculating the inverse
 
 
 cacheSolve <- function(x, ...) {
